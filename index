@@ -9,6 +9,9 @@
     <script src='main.js'></script>
 </head>
 <body>
-    
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = "Bom Dia"
+    </script>
 </body>
 </html>
